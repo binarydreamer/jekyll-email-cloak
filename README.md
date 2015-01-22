@@ -23,9 +23,9 @@ Or install it yourself as:
 ## Usage
 
 ```liquid
-{% email_cloak ryan binarydreamer.com %}
-{% email_cloak ryan binarydreamer.com 'Click Here' %}
-{% email_cloak ryan binarydreamer.com same_as_email some_class1 some_class2 %}
+{% cloak_email ryan binarydreamer.com %}
+{% cloak_email ryan binarydreamer.com 'Click Here' %}
+{% cloak_email ryan binarydreamer.com same_as_email some_class1 some_class2 %}
 ```
 
 same_as_email is reserved for skipping over custom link text, this way you can then add link classes.

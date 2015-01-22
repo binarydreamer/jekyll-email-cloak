@@ -8,12 +8,12 @@ module JekyllEmailCloak
         cloak_tag(args)
       else
       raise ArgumentError.new <<-eos
-      Syntax error in tag 'email_cloak' while parsing the following markup:
+      Syntax error in tag 'cloak_email' while parsing the following markup:
         #{@markup}
       Valid syntax examples:
-        {% email_cloak ryan binarydreamer.com %}
-        {% email_cloak ryan binarydreamer.com 'Click Here' %}
-        {% email_cloak ryan binarydreamer.com same_as_email some_class1 some_class2 %}
+        {% cloak_email ryan binarydreamer.com %}
+        {% cloak_email ryan binarydreamer.com 'Click Here' %}
+        {% cloak_email ryan binarydreamer.com same_as_email some_class1 some_class2 %}
       eos
       end
     end
