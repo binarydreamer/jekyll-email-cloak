@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ryan Slack"]
   spec.email         = ["ryan@binarydreamer.com"]
   spec.summary       = %q{ Easily cloak your email links in Jekyll }
-  spec.homepage      = "http://binarydreamer.com"
+  spec.homepage      = "https://github.com/binarydreamer/jekyll-email-cloak"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
