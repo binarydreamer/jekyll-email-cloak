@@ -3,8 +3,6 @@ require 'securerandom'
 
 module JekyllEmailCloak
   class CloakEmailTag < Liquid::Tag
-    safe true
-    
     def render(context)
       if args = determine_arguments(@markup.strip)
         cloak_tag(args)
